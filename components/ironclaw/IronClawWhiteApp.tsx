@@ -1050,7 +1050,7 @@ export default function IronClawWhiteApp() {
               cta_type: 'deploy',
               page_section: 'nav',
             });
-            window.open('https://agent.near.ai?utm_source=ironclaw&utm_medium=web&utm_campaign=nav_deploy', '_blank');
+            window.open('https://agent.near.ai?utm_source=ironclaw&utm_medium=web&utm_campaign=nav_deploy', '_blank', 'noopener,noreferrer');
           }} />
 
           <button className="lg:hidden cursor-pointer" style={{ color: '#111' }} onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -1191,7 +1191,7 @@ export default function IronClawWhiteApp() {
                     cta_type: 'deploy',
                     page_section: 'hero',
                   });
-                  window.open('https://agent.near.ai?utm_source=ironclaw&utm_medium=web&utm_campaign=hero_deploy', '_blank');
+                  window.open('https://agent.near.ai?utm_source=ironclaw&utm_medium=web&utm_campaign=hero_deploy', '_blank', 'noopener,noreferrer');
                 }} />
                 <a
                   href="https://github.com/nearai/ironclaw"
@@ -1551,7 +1551,7 @@ export default function IronClawWhiteApp() {
               cta_type: 'deploy',
               page_section: 'bottom',
             });
-            window.open('https://agent.near.ai?utm_source=ironclaw&utm_medium=web&utm_campaign=bottom_deploy', '_blank');
+            window.open('https://agent.near.ai?utm_source=ironclaw&utm_medium=web&utm_campaign=bottom_deploy', '_blank', 'noopener,noreferrer');
           }} />
           <a
             href="https://github.com/nearai/ironclaw"
